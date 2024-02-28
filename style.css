@@ -1,0 +1,102 @@
+body {
+    background-color: #1a1a1a;
+    color: #F7F7F7;
+    font-family: 'Optima', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#intro {
+    max-width: 600px;
+    text-align: justify;
+    padding: 10px;
+}
+
+#intro h1 {
+    color: #D8BFD8;
+
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    max-height: 400px;
+}
+
+#bubble {
+    box-sizing: border-box;
+    background-color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+
+}
+
+#skills {
+    text-align: center;
+    margin-top: 30px;
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 2px;
+}
+
+
+
+
+#resumeButton {
+    background-color:#D8BFD8;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+#projects {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#githubLink {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+#githubLink a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#D8BFD8;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#githubLink a:hover {
+    background-color: #555;
+}
+
+#githubLink img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#contact {
+    text-align: center;
+    margin-top: 40px;
+}
