@@ -182,7 +182,7 @@ body {
     .header-content img {
         max-width: 100%;
         margin-right: 0px;
-        margin-left: 100px;
+        margin-left: 0px;
         margin-top: 10px;
     }
 }
