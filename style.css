@@ -128,9 +128,9 @@ body {
 /* Project Card Styles */
 .projects-container {
     display: flex;
-    flex-wrap: wrap;
+   
     height: 300px;
-    justify-content: space-between; 
+    justify-content:flex-start; 
     color: #E8E8E8;
 }
 
@@ -187,7 +187,11 @@ body {
         margin-top: 10px;
     }
 
+    .projects-container
+    {
+        flex-wrap: wrap;
+    }
     .project-card {
-        width: 100%; /* Adjust as needed for smaller screens */
+        width: 100%; 
     }
 }
