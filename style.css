@@ -146,4 +146,7 @@ body {
         align-items: center;
         margin-top: 10px;
     }
+    .header-content img {
+        margin-right: 100px;
+    }
 }
