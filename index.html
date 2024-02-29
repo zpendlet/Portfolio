@@ -3,63 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zoe Pendleton - Portfolio</title>
+    <title> Zoe Pendleton- Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap">
+
 </head>
 <body>
 
-    <div id="container">
-        <div id="intro">
-            <h1>Zoe Pendleton</h1>
-            <p> I am a Computing major with a concentration in Information Technology at East Tennessee State University in Johnson City. TN. I have an interest in cybersecurity, backend development, and the intersection of computer science and ecology. </p>
-            <br>
-            <br>
+    <!-- Header Section -->
+    <header class="header-section">
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Zoe Pendleton</h1>
+                <p>Programmer.</p>
+                <div class="buttons">
+                    <a href="https://github.com/zpendlet" target="_blank" rel="noopener noreferrer">
+                        <button id="githubButton">
+                            <svg class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="10" height="10" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                            </svg>
+                            GitHub
+                        </button>
+                    </a>
+                    <a href="path/to/your/resume.pdf" download>
+                        <button id="resumeButton">
+                            Download Resume
+                        </button>
+                    </a>
+                </div>
+                
+                
+            </div>
+            <img src="Headshot.png" alt="Headshot">
             
-
         </div>
-        <img src="Headshot.png" alt="Your Name">
-    </div>
+    </header>
 
-
-<div id="bubble">
-    <div id="skills">
+    <!-- Main Section -->
+    <main class="main-section">
         <h2>Skills</h2>
-        <ul>
-            <li><strong>Fullstack:</strong> API consumption and production, database (SQL/SQLite/Pl/SQL) knowledge, HTML/CSS/JS</li>
-            <li><strong>Languages:</strong> C#, Python, R</li>
-            <li><strong>Conceptual:</strong> Discrete mathematics, database design, OOP, basic machine learning, data analytics</li>
-            <li><strong>Non-Technical:</strong> Customer service, ability to work in high-stress environments</li>
-            
-        </ul>
-        <br>
-        <a id="resumeButton" href="Resume.pdf" download>Download Resume</a>
-    </div>
+        <hr class="underline">
+        <section class="skills-section">
+    
+    <ul class="skills-list">
+        <li>
+            <strong>Fullstack</strong>
+            <p>API consumption and production, database (SQL/SQLite/PL/SQL) knowledge, HTML/CSS/JS</p>
+        </li>
+        <li>
+            <strong>Languages</strong>
+            <p>C#, Python, R</p>
+        </li>
+        <li>
+            <strong>Conceptual</strong>
+            <p>Discrete mathematics, database design, OOP, basic machine learning, data analytics</p>
+        </li>
+        <li>
+            <strong>Non-Technical</strong>
+            <p>Customer service, ability to work in high-stress environments</p>
+        </li>
+    </ul>
+        </section>
 
-    <div id="projects">
-        <h2> Projects</h2>
-        <p> Placeholder for embedded c#/python</p>
-
-    </div>
-
-
-    <div id="githubLink">
-        <a href="https://github.com/zpendlet" target="_blank" rel="noopener noreferrer">
-            <svg class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
-                <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-            </svg>
-            GitHub Profile
-        </a>
-    </div>
-</div>
-
-
-    <div id="contact">
-        <h2>Contact</h2>
-        <p> pendletonz@etsu.edu</p>
-        <p>423.579.0887</p>
-        
-    </div>
+        <section class="projects-section">
+            <h2>Projects</h2>
+            <hr class="underline">
+            <!-- Cards for Projects -->
+            <div class="project-card"> <!-- Repeat as needed -->
+                <h3>Project Name</h3>
+                <p>Project Description</p>
+            </div>
+            <!-- Repeat for other project cards -->
+        </section>
+    </main>
 
 </body>
 </html>
-
