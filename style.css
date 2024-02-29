@@ -126,20 +126,30 @@ body {
 }
 
 /* Project Card Styles */
+.projects-container {
+    display: flex;
+    height: 300px;
+    justify-content: space-between; 
+    color: #E8E8E8;
+}
+
+
 .project-card {
-    background-color: #fff;
+    background-color: #1A1A1A;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 20px;
+    width: 30%;
+    margin: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    
 }
 
 /* Responsive Styles  */
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
-        align-items: center;
-        flex-direction: row; 
+        
     }
 
     .header-buttons {
@@ -148,6 +158,9 @@ body {
         margin-top: 10px;
     }
     .header-content img {
-        margin-right: 100px;
+        max-width: 100%;
+        margin-right: 0px;
+        margin-left: 100px;
+        margin-top: 10px;
     }
 }
