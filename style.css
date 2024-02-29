@@ -128,8 +128,7 @@ body {
 /* Project Card Styles */
 .projects-container {
     display: flex;
-   
-    height: 300px;
+   margin-top: 20px;
     justify-content:flex-start; 
     color: #E8E8E8;
 }
@@ -170,8 +169,17 @@ body {
 
 /* Responsive Styles  */
 @media (max-width: 768px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+       
+   
+    }
+
     .header-content {
         flex-direction: column;
+        text-align: center;
         
     }
 
@@ -186,6 +194,13 @@ body {
         margin-left: 0px;
         margin-top: 10px;
     }
+    .header-text {
+        max-width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding-left: 0;
+    }
 
     .projects-container
     {
@@ -193,5 +208,7 @@ body {
     }
     .project-card {
         width: 100%; 
+        margin: 10px 0;
     }
+    
 }
