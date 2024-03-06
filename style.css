@@ -154,6 +154,19 @@ body {
     color: #E8E8E8;
     text-align: center;
 }
+#card-2 {
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 2)), url('Project2.png');
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E8E8E8;
+    text-align: center;
+}
+
 
 
 /* Responsive Styles  */
