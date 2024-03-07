@@ -80,12 +80,20 @@ body {
     background-color: #D8BFD8;
     color: #1A1A1A;
 }
+#githubButton:hover {
+    background-color: #B8A5B8;
+}
+
 
 
 #resumeButton {
     background-color: #D8BFD8;
     color: #1A1A1A;
 }
+#resumeButton:hover {
+    background-color: #B8A5B8;
+}
+
 
 
 
@@ -96,9 +104,30 @@ body {
     text-align: left;
 }
 
-.skills-list {
-    list-style-type: none;
+.bio-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1A1A1A; 
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out; 
+
+ 
 }
+
+.bio-container:hover {
+    transform: scale(1.05); 
+}
+
+.bio h2{
+    color: #D8BFD8;
+}
+.bio p {
+    color: #E8E8E8;
+}
+
 /* Section Styles */
 .skills-section,
 .projects-section {
@@ -165,6 +194,24 @@ body {
     justify-content: center;
     color: #E8E8E8;
     text-align: center;
+}
+.tags-container {
+    margin-top: 10px;
+}
+
+.tag {
+    background-color: #D8BFD8; 
+    color: #1A1A1A;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+/* Add hover effect for tags */
+.tag:hover {
+    background-color: #B8A5B8;
 }
 
 
