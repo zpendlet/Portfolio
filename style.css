@@ -51,6 +51,19 @@ body {
     padding-top: 0;
 }
 
+.header-tags {
+    font-size: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    text-align: left;
+
+}
+.header-tags p {
+   
+    margin: 0 15px;
+}
+
 
 
 /* Use relative units for padding and margin */
@@ -108,46 +121,6 @@ body {
 
 }
 
-.bio-container {
-    width: 70%;
-    margin: 0 auto;
-    
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #D8BFD8; 
-    border-radius: 20px;
-    text-align: left;
-    transition: transform 0.3s ease-in-out; 
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2);
-
- 
-}
-
-.bio-container:hover {
-    transform: scale(1.05); 
-}
-
-.bio h2{
-    color:  #1A1A1A;
-    margin-bottom: 2px;
-    padding-left: 40px;
-}
-
-.bio p {
-    margin-top: 2px;
-    font-size: 16px;
-    padding-left: 70px;
-}
-
-.bio .underline {
-    color: #1A1A1A;
-    border: 2px solid ;
-    width: 200px;
-    margin-left: 40px;
-    margin-top: 0;
-
-}
 
 
 /* Section Styles */
@@ -283,5 +256,14 @@ body {
     }
     .project-card {
         width: 80%;
+    }
+
+    .header-tags {
+        font-size: 10px;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        margin-top: 2px;
+        margin-bottom: 0;
     }
 }
