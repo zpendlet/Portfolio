@@ -116,43 +116,113 @@ body {
 
 /* Main Section Styles */
 .main-section {
+
     background: linear-gradient(to bottom, #F4F4F4, #CCCCCC); 
     padding: 40px;
     text-align: left;
 
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skills-label h2 {
+    margin: 0;
+}
 
 
 /* Section Styles */
-.skills-section,
-.projects-section {
-    margin-bottom: 0px;
-   
-}
-
-.skills-section ul {
+.skills-section {
+    width: min(50%, 60rem);
+    overflow: hidden;
+    margin: 0;
+    padding: clamp(1rem, 5vw, 4rem);
+    perspective: 1000px;
+    display: grid;
+    row-gap: 0.5rem;
+  }
+  
+  .skills-list {
     list-style: none;
-}
-
-
-
-
-.skills-list li {
-    font-size: 20px;
-    line-height: 1.5;
+    display: grid;
+    gap: 1rem; 
+  }
+  
+  .skill-item {
+    position: relative;
+    background-color: var(--bg-color);
+    color: var(--color);
+    padding: 1.5rem 2rem; 
+    border-radius: 20px; 
+  
     
+  }
+  
+  .skill-item:hover {
+    transform: scale(1.05); 
+  }
+  
+  .skill-item strong {
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem; 
+  }
+
+ #research {
+    background-color: red !important;
+  }
+  
+  .skill-item p {
+    margin: 0; 
+  }
+  
+  @media (min-width: 30rem) {
+    .skills-list {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust columns for responsiveness */
+    }
+  }
+  
+  
+.about-me {
+    width: min(50%, 60rem);
+    height: 300px; 
+    overflow-y: auto;
+    overflow: hidden;
+    background-color: #D8BFD8;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    padding: 20px;
+    margin-bottom: 20px; 
+    margin-top: 70px;
+    
+
 }
 
-
+  
+  
 
 /* Decorative Underline Styles */
-.underline {
-    color: #D8BFD8;
-    border: 2px solid ;
+.main-section .underline-projects {
+    border: none; /* Remove default border */
+    border-bottom: 2px solid #D8BFD8; /* Specify the color of the bottom border */
     width: 200px;
-    margin-left: 0;
-    margin-top: 0;
+    align-items: center;
+}
+.underline{
+    border: none; /* Remove default border */
+    border-bottom: 4px solid #D8BFD8; /* Specify the color of the bottom border */
+    width: 200px;
+    margin: 0;
+}
+
+#underline-projects {
+    border: none; /* Remove default border */
+    border-bottom: 4px solid #D8BFD8; /* Specify the color of the bottom border */
+    width: 200px;
+    
 }
 
 /* Project Card Styles */
@@ -162,6 +232,10 @@ body {
     justify-content:flex-start; 
     color: #E8E8E8;
     
+}
+
+.projects-label {
+    text-align: center;
 }
 
 
@@ -269,7 +343,7 @@ body {
         flex-direction: column;
     }
     .project-card {
-        width: 80%;
+        width: 90%;
     }
 
     .header-tags {
@@ -279,5 +353,24 @@ body {
         padding-top: 10px;
         margin-top: 2px;
         margin-bottom: 0;
+
+
+    }
+
+    .container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .skills-section {
+        width: 100%;
+        margin-bottom: 20px; 
+    }
+    .skill-item {
+        width:80%;
+    }
+
+    .about-me {
+        width: 90%; 
     }
 }
