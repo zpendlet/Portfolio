@@ -179,19 +179,15 @@ body {
     margin: 0; 
   }
   
-  @media (min-width: 30rem) {
-    .skills-list {
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust columns for responsiveness */
-    }
-  }
+ 
   
   
 .about-me {
     width: min(50%, 60rem);
-    height: 300px; 
+    height: 500px; 
     overflow-y: auto;
     overflow: hidden;
-    background-color: #D8BFD8;
+    
     border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
     padding: 20px;
@@ -201,26 +197,41 @@ body {
 
 }
 
+.about-me img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+.about-me h3 {
+    font-size: 30px;
+    padding-bottom: 0;
+}
+.about-me p {
+    font-size: 1.1rem;
+}
   
   
 
 /* Decorative Underline Styles */
 .main-section .underline-projects {
-    border: none; /* Remove default border */
-    border-bottom: 2px solid #D8BFD8; /* Specify the color of the bottom border */
+    border: none;
+    border-bottom: 2px solid #D8BFD8; 
     width: 200px;
     align-items: center;
 }
-.underline{
-    border: none; /* Remove default border */
-    border-bottom: 4px solid #D8BFD8; /* Specify the color of the bottom border */
+#bio-underline{
+    border: none; 
+    border-bottom: 4px solid #D8BFD8;
     width: 200px;
-    margin: 0;
+    margin-left: 0;
+    padding-top: 0;
 }
 
 #underline-projects {
-    border: none; /* Remove default border */
-    border-bottom: 4px solid #D8BFD8; /* Specify the color of the bottom border */
+    border: none; 
+    border-bottom: 4px solid #D8BFD8; 
     width: 200px;
     
 }
@@ -360,17 +371,29 @@ body {
     .container {
         flex-direction: column; 
         align-items: center; 
+        width: 90%;
     }
 
     .skills-section {
         width: 100%;
         margin-bottom: 20px; 
+        margin-right: 40px;
+       
     }
     .skill-item {
         width:80%;
+       
     }
 
     .about-me {
-        width: 90%; 
+        width: 100%;
+        padding-bottom: 40px; 
+    }
+
+    .about-me img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px;
     }
 }
