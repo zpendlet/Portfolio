@@ -1,17 +1,15 @@
 body {
     margin: 0;
-
     font-family: 'Roboto Slab', serif;
+    background-color: #FFE8D6;
+    color: #2B2B2B;
 }
 
-
-/* Header Section Styles */
 .header-section {
-    background-color: #1A1A1A;
-    color: #E8E8E8; 
+    background-color: #4F5642;
+    color: #FFE8D6; 
     padding: 50px;
     text-align: center;
-    
 }
 
 .header-content {
@@ -19,8 +17,6 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 4em;
-
-   
 }
 
 .header-content img {
@@ -29,21 +25,19 @@ body {
     max-width: 100%;
     max-height: 100%;
     border-radius: 50%;
-    margin-right: 20px; /* Adjust margin as needed */
+    margin-right: 20px;
     object-fit: cover;
-
 }
 
-
-
 .header-content h1 {
-    color: #D8BFD8;
+    color: #DDBEA9;
     font-size: 4em;
 }
 
 .header-content p {
     font-size: 2em;
 }
+
 .header-text {
     max-width: 600px;
     padding-left: 80px;
@@ -57,26 +51,21 @@ body {
     justify-content: space-between;
     margin-top: 60px;
     text-align: left;
-
 }
+
 .header-tags p {
-   
     margin: 0 15px;
 }
 
-
-
-/* Use relative units for padding and margin */
 .buttons {
     display: flex;
     align-items: center;
     margin-top: 2%; 
     justify-content: center;
-   
 }
+
 .buttons a {
     text-decoration: none; 
-    
 }
 
 .buttons button {
@@ -86,55 +75,43 @@ body {
     cursor: pointer;
     margin: 0.5em;
     font-size: 14px;
-
 }
 
-/* Remove fixed margin values */
 #githubButton {
-    background-color: #D8BFD8;
-    color: #1A1A1A;
+    background-color: #DDBEA9;
+    color: #2B2B2B;
     transition: transform 0.3s ease-in-out;
 }
+
 #githubButton:hover {
     transform: scale(1.05); 
 }
 
-
-
 #resumeButton {
-    background-color: #D8BFD8;
-    color: #1A1A1A;
+    background-color: #DDBEA9;
+    color: #2B2B2B;
     transition: transform 0.3s ease-in-out; 
 }
+
 #resumeButton:hover {
     transform: scale(1.05); 
-    
 }
 
-
-
-
-/* Main Section Styles */
 .main-section {
-
-    background: linear-gradient(to bottom, #F4F4F4, #CCCCCC); 
+    background: linear-gradient(to bottom, #FFE8D6, #A5A58D); 
     padding: 40px;
     text-align: left;
-
 }
 
 .container {
     display: flex;
     justify-content: space-between;
-
 }
 
 .skills-label h2 {
     margin: 0;
 }
 
-
-/* Section Styles */
 .skills-section {
     width: min(50%, 60rem);
     overflow: hidden;
@@ -143,58 +120,50 @@ body {
     perspective: 1000px;
     display: grid;
     row-gap: 0.5rem;
-  }
-  
-  .skills-list {
+}
+
+.skills-list {
     list-style: none;
     display: grid;
     gap: 1rem; 
-  }
-  
-  .skill-item {
+}
+
+.skill-item {
     position: relative;
-    background-color: var(--bg-color);
-    color: var(--color);
+    background-color: #A5A58D;
+    color: #2B2B2B;
     padding: 1.5rem 2rem; 
     border-radius: 20px; 
-  
-    
-  }
-  
-  .skill-item:hover {
+}
+
+.skill-item:hover {
     transform: scale(1.05); 
-  }
-  
-  .skill-item strong {
+}
+
+.skill-item strong {
     font-weight: 700;
     font-size: 1.25rem;
     margin-bottom: 0.5rem; 
-  }
+}
 
- #research {
+#research {
     background-color: red !important;
-  }
-  
-  .skill-item p {
+}
+
+.skill-item p {
     margin: 0; 
-  }
-  
- 
-  
-  
+}
+
 .about-me {
     width: min(50%, 60rem);
     height: 500px; 
     overflow-y: auto;
     overflow: hidden;
-    
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-bottom: 20px; 
     margin-top: 70px;
-    
-
 }
 
 .about-me img {
@@ -208,22 +177,21 @@ body {
     font-size: 30px;
     padding-bottom: 0;
 }
+
 .about-me p {
     font-size: 1.1rem;
 }
-  
-  
 
-/* Decorative Underline Styles */
 .main-section .underline-projects {
     border: none;
-    border-bottom: 2px solid #D8BFD8; 
+    border-bottom: 2px solid #DDBEA9; 
     width: 200px;
     align-items: center;
 }
-#bio-underline{
+
+#bio-underline {
     border: none; 
-    border-bottom: 4px solid #D8BFD8;
+    border-bottom: 4px solid #DDBEA9;
     width: 200px;
     margin-left: 0;
     padding-top: 0;
@@ -231,27 +199,23 @@ body {
 
 #underline-projects {
     border: none; 
-    border-bottom: 4px solid #D8BFD8; 
+    border-bottom: 4px solid #DDBEA9; 
     width: 200px;
-    
 }
 
-/* Project Card Styles */
 .projects-container {
     display: flex;
-   margin-top: 20px;
-    justify-content:flex-start; 
-    color: #E8E8E8;
-    
+    margin-top: 20px;
+    justify-content: flex-start; 
+    color: #FFE8D6;
 }
 
 .projects-label {
     text-align: center;
 }
 
-
 .project-card {
-    background-color: #1A1A1A;
+    background-color: #6B705C;
     padding: 20px;
     border-radius: 20px;
     width: 30%;
@@ -259,54 +223,48 @@ body {
     box-shadow: 0 2 20px rgba(0, 0, 0, 0.3);
     margin-bottom: 20px;
     transition: transform 0.3s ease-in-out; 
-    
-  
-    
 }
 
 .project-card a {
     text-decoration: none; 
-    color: #E8E8E8;
-   
-    
+    color: #FFE8D6;
 }
+
 .project-card:hover {
     transform: scale(1.05); 
     box-shadow: 0 2 20px rgba(0, 0, 0, 0.3);
-
-    
 }
+
 #card-1 {
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 2)), url('Project1.png');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 2)), url('Project1.png');
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #E8E8E8;
+    color: #FFE8D6;
     text-align: center;
 }
+
 #card-2 {
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 2)), url('Project2.png');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 2)), url('Project2.png');
     background-size: cover;
-   
     background-repeat: no-repeat;
-    
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #E8E8E8;
+    color: #FFE8D6;
     text-align: center;
 }
+
 .tags-container {
     margin-top: 10px;
 }
 
 .tag {
-    background-color: #D8BFD8; 
-    color: #1A1A1A;
+    background-color: #DDBEA9; 
+    color: #2B2B2B;
     padding: 5px 10px;
     border-radius: 5px;
     margin-right: 5px;
@@ -314,31 +272,21 @@ body {
     display: inline-block;
 }
 
-/* Add hover effect for tags */
 .tag:hover {
-    background-color: #B8A5B8;
+    background-color: #A5A58D;
 }
 
-
-
-/* Responsive Styles  */
 @media (max-width: 768px) {
-    /* Adjust styles for smaller screens here */
     .header-content {
         flex-direction: column-reverse;
         text-align: center;
-    
     }
 
     .header-content img {
- 
         max-width: 275px;
         max-height: 2575px;
         border-radius: 50%;
         padding-bottom: 0;
-        
- 
-  
     }
 
     .header-text {
@@ -353,6 +301,7 @@ body {
         width: 100%;
         flex-direction: column;
     }
+
     .project-card {
         width: 90%;
     }
@@ -364,8 +313,6 @@ body {
         padding-top: 10px;
         margin-top: 2px;
         margin-bottom: 0;
-
-
     }
 
     .container {
@@ -378,17 +325,14 @@ body {
         width: 100%;
         margin-bottom: 20px; 
         margin-right: 40px;
-       
     }
+
     .skill-item {
-        width:80%;
-       
+        width: 80%;
     }
 
     .about-me {
         width: 100%;
         padding-bottom: 40px; 
     }
-
-
 }
