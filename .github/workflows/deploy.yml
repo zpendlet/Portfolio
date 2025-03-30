@@ -27,3 +27,10 @@ jobs:
             --exclude ".git/*" \
             --exclude ".github/*" \
             --exclude "README.md"
+
+      - name: Invalidate CloudFront Cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ secrets.CLOUDFRONT_DIST_ID }} \
+            --paths "/*"
+
