@@ -258,6 +258,18 @@ body {
     text-align: center;
 }
 
+#card-3 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, 2)), url('Project3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFE8D6;
+    text-align: center;
+}
+
+
 .tags-container {
     margin-top: 10px;
 }
